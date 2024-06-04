@@ -12,54 +12,42 @@
     <script type="text/javascript" src="./script.js">
 </script>
 
-<form>
-	
-	<h1 style="text-align:center;">Internship Form</h1>
-	<div class="row">
-  <div    class="col">
-	  <lable id="first-name-input" class="form-control">First Name</lable>
-    <input type="text" class="form-control" placeholder="First name" aria-label="First name">
-  </div>
-  <div class="col">
-	  	  <lable  id="last-name-input"  class="form-control">Last Name</lable>
+	<form>
+		<head> <h1>Internship Form</h1></head>
+		<label id="first-name-input ">First Name</label><br>
+		<input required>
+		<br>
 
-    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
-  </div>
-</div>
-	 <div id="email-input" class="mb-3">
-    <label id="email-input" for="exampleInputEmail1" class="form-label">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-  </div>
-	 <div class="col">
-	  	  <lable id="college-input"  class="form-control">College</lable>
+		<label id="last-name-input">Last Name</label><br>
+		<input required>
+		<br>
 
-    <input type="text" class="form-control"  aria-label="college">
-  </div>
-		  	  <lable  type="text" class="form-control">Gradution Year</lable>
+		<label id="email-input">Email Address</label><br>
+		<input name="xyz@abc.com" required>
+		<br>
 
-<select class="form-select" aria-label="Default select example">
-  <option selected></option>
-  <option value="1">2020</option>
-  <option value="2">2021</option>
-  <option value="3">2022</option>
-  <option value="4">2023</option>
+		<label id="college-input">College</label><br>
+		<input  required>
+		<br>
 
-</select>
+		<label>Graduation Year</label><br>
+		<input select=""   required>
+		<br>
 
-	<div class="col">
-	  	  <lable  id="roll-no-input" class="form-control">Roll No.</lable>
-    <input type="number" class="form-control"  aria-label="number">
-  </div>
+		<label id="roll-no-input">Roll No</label><br>
+		<input required>
+		<br>
 
-	<div class="form-check">
-  <input id="conditions-checkbox" class="form-check-input" type="checkbox" value="" id="flexCheckDisabled" disabled>
-  <label class="form-check-label" for="flexCheckDisabled">
-    Agree to terms and conditions
-  </label>
-</div>
+		<input id="conditions-checkbox" type="checkbox" required>
+		<label >Agree to terms and conditions</label>
+		<p>You must agree before submitting</p>
+		
+		<br>
+		<button>Submit form</button>
 
-
+		
 	</form>
+
 </body>
 
 </html>
