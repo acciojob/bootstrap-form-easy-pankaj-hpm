@@ -12,7 +12,7 @@
     <script type="text/javascript" src="./script.js">
 </script>
 
-	<form>
+	<!-- <form>
 		<head> <h1>Internship Form</h1></head>
 
 		<label for="first-name-input">First Name</label>
@@ -20,13 +20,7 @@
 
 <label for="last-name-input">Last Name</label>
 <input id="last-name-input" type="text">
-		
-		<!-- <label for="first-name-input ">First Name</label>
-		<input id="first-name-input " type="text"  required>
-		
-
-		<label for="last-name-input">Last Name</label>
-		<input id="last-name-input"  required> -->
+	
 		<br><br>
 
 		<label for="email-input">Email Address</label>
@@ -52,6 +46,73 @@
 		<br>
 		<button>Submit form</button>
 
+		
+	</form> -->
+
+	<form>
+
+		<div class="row">
+  <div class="col-4">
+	  		<label for="roll-no-input">First Name</label><br>
+
+    <input type="text" class="form-control"  aria-label="First name">
+  </div>
+  <div class="col-4">
+
+	  		<label for="roll-no-input">Last Name</label><br>
+
+    <input type="text" class="form-control"  aria-label="Last name">
+  </div>
+
+
+		  <div class="col-4">
+
+	  		<label for="roll-no-input">Email Address</label><br>
+
+    <input type="text" class="form-control" placeholder="xyz@abc.com"  aria-label="Last name" required>
+  </div>
+</div>
+
+		
+  <div class="row">
+
+	    <div class="col-5">
+
+	  		<label for="roll-no-input">College</label><br>
+
+    <input type="text" class="form-control"  aria-label="Last name">
+  </div>
+     <div class="col-3">
+		 	  		<label for="roll-no-input">Graduation Year</label><br>
+
+    <label class="visually-hidden" for="autoSizingSelect">Preference</label>
+    <select class="form-select" id="autoSizingSelect">
+      <option selected>Choose...</option>
+      <option value="1">2020</option>
+      <option value="2">2021</option>
+      <option value="3">2022</option>
+	  <option value="3">2023</option>
+
+    </select>
+  </div>
+	  <div class="col-4">
+
+	  		<label for="roll-no-input">Roll No.</label><br>
+
+    <input type="text" class="form-control"  aria-label="Last name">
+  </div>
+
+    <div class="col-auto">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="autoSizingCheck">
+      <label class="form-check-label" for="autoSizingCheck">
+        Agree to items and condition
+      </label>
+    </div>
+  </div>
+
+	  
+  </div>
 		
 	</form>
 
